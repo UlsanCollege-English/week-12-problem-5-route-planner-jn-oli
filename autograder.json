@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "name": "Prim MST Tests",
+      "run": "pytest tests/ -q --disable-warnings --maxfail=1",
+      "timeout": 20,
+      "points": 100
+    }
+  ]
+}
